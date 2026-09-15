@@ -2,7 +2,11 @@ const CoverURL = require('./src/_includes/components/CoverURL.js')
 const AlbumCard = require('./src/_includes/components/AlbumCard.js')
 const AlbumInfo = require('./src/_includes/components/AlbumInfo.js')
 
-module.exports = function(eleventyConfig) {
+module.exports = async function(eleventyConfig) {
+    const { HtmlBasePlugin } = await import("@11ty/eleventy");
+    
+    eleventyConfig.addPlugin(HtmlBasePlugin);
+
     eleventyConfig.addPassthroughCopy("src/assets/")
     eleventyConfig.addPassthroughCopy("src/css/")
 
@@ -27,6 +31,7 @@ module.exports = function(eleventyConfig) {
             includes: '_includes',
             output: '_site'
         },
+        pathPrefix: "/portfolio/",
         templateFormats: ['md', 'njk', 'html'],
         markdownTemplateEngine: 'njk',
         htmlTemplateEngine: 'njk',

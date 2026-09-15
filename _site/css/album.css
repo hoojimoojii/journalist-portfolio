@@ -1,0 +1,28 @@
+.album-info {
+    margin-bottom: var(--margin-x-large)
+}
+
+.album-info__container {
+    display: flex;
+    flex-direction: row;
+}
+
+.album-info__cover {
+    width: 40%;
+    aspect-ratio: 1;
+    background-position: center;
+    background-size: contain;
+}
+
+.album-info__info {
+    flex-grow: 1;
+    padding-left: var(--margin-medium);
+}
+
+.album-info__info h3, .album-info__info h2 {
+    color: var(--secondary-fg-color);
+}
+
+.album-info__info h2 {
+    margin-top: 0;
+}

@@ -1,0 +1,31 @@
+.thumbnail {
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: var(--margin-large);
+}
+
+.article p {
+    font-family: "Spectral", serif;
+    font-weight: 250;
+    font-style: normal;
+    font-size: var(--font-normal);
+    text-align: left;
+}
+
+.albums__container {
+    display: grid;
+    gap: var(--margin-x-small);
+    grid-template-columns: repeat(3, 1fr);
+    width: 100%;
+    margin-top: var(--margin-large);
+    margin-bottom: var(--margin-large);
+}
+
+@media (min-width: 600px) {
+
+    .thumbnail {
+      margin-bottom: var(--margin-large);
+    }
+
+}

@@ -1,5 +1,5 @@
 const {html} = require('common-tags');
-const apiUrl = 'http://127.0.0.1:5001/albums/id';
+const apiUrl = 'https://journalist-portfolio-backnd-fbf7c6d6dgdscubd.westus-01.azurewebsites.net/albums/id';
 
 function buildApiUrl(id) {
     return `${apiUrl}/${id}`;
