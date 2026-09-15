@@ -1,0 +1,35 @@
+const CoverURL = require('./src/_includes/components/CoverURL.js')
+const AlbumCard = require('./src/_includes/components/AlbumCard.js')
+const AlbumInfo = require('./src/_includes/components/AlbumInfo.js')
+
+module.exports = function(eleventyConfig) {
+    eleventyConfig.addPassthroughCopy("src/assets/")
+    eleventyConfig.addPassthroughCopy("src/css/")
+
+    eleventyConfig.addWatchTarget("src/css/")
+
+    eleventyConfig.addShortcode("CoverURL", CoverURL)
+    eleventyConfig.addShortcode("AlbumCard", AlbumCard)
+    eleventyConfig.addShortcode("AlbumInfo", AlbumInfo)
+
+    eleventyConfig.addCollection("weeks", function(collectionApi) {
+        return collectionApi.getFilteredByTag("highlight").reverse()
+    })
+    eleventyConfig.addCollection("articles", function(collectionApi) {
+        return collectionApi.getFilteredByTag("feature").reverse()
+    })
+
+    eleventyConfig.addFilter("date", require("./src/filters/date.js"));
+    eleventyConfig.addFilter("limit", require("./src/filters/limit.js"));
+    return {
+        dir: {
+            input: 'src',
+            includes: '_includes',
+            output: '_site'
+        },
+        templateFormats: ['md', 'njk', 'html'],
+        markdownTemplateEngine: 'njk',
+        htmlTemplateEngine: 'njk',
+        dataTemplateEngine: 'njk',
+    }
+}

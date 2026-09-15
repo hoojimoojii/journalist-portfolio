@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% include "basehead.html" %}
+    {% block head %} {% endblock %}
+    <link rel="stylesheet" href="/css/album.css">
+</head>
+<body>
+    {% include "menu.html" %}
+    <div id="content">
+        {% AlbumInfo id=page.fileSlug %}
+        {% block content %}
+            {{ content | safe }}
+        {% endblock %}
+    </div>
+</body>
+</html>

@@ -1,0 +1,24 @@
+---
+layout: layouts/articles.html
+title: Who Am I?
+description: I am a writer/designer from South Korea interested in contemporary music and films. In Hong Kong, I designed and published music magazine Bass Boosted for 2 years. As the writer of my very own magazine, I document the stories of local musicians and the artisanship behind notable albums.
+---
+
+{% set newWeek = collections.weeks | first %}
+{% set newArticle = collections.articles | first %}
+{% set newPosts = collections.articles | limit(18) %}
+<div class="grid">
+    {% for post in newPosts %}
+        {% if (post !=newWeek) %}
+                <div class="article">
+                    <a class="card__container article__container" href="articles/id/{{ post.fileSlug }}">
+                        <div class="article__cover card__cover"  style="background-image: url('/assets/images/{{ post.data.id }}.png');"></div>
+                        <div class="article__info card__info">
+                            <h3>{{post.data.section}}</h3>
+                            <h3>{{post.data.title}}</h3>
+                        </div>
+                    </a>
+                </div>
+        {% endif %}
+    {% endfor %}
+</div>
