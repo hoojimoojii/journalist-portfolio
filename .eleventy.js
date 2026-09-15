@@ -29,9 +29,8 @@ module.exports = async function(eleventyConfig) {
         dir: {
             input: 'src',
             includes: '_includes',
-            output: '_site'
+            output: 'docs'
         },
-        pathPrefix: "/portfolio/",
         templateFormats: ['md', 'njk', 'html'],
         markdownTemplateEngine: 'njk',
         htmlTemplateEngine: 'njk',
