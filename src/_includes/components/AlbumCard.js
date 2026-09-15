@@ -35,7 +35,7 @@ async function AlbumCard({id}) {
                 ${await getGenreTags(album.genre)}
             </div>
             <a class="album-card__container card__container" href="/albums/id/${id}">
-                <div class="album-card__cover card__cover"  style="background-image: url('${album.coverUrl || "/assets/images/cover__default"}');"></div>
+                <div class="album-card__cover card__cover"  style="background-image: url('${album.coverUrl || "/journalist-portfolio/assets/images/cover__default"}');"></div>
                 <div class="album-card__info card__info">
                     <h3>${album.title}</h3>
                     <h3>${album.artistNames?.join(' & ') || 'Unknown Artist'}, ${album.date}</h3>

@@ -31,6 +31,7 @@ module.exports = async function(eleventyConfig) {
             includes: '_includes',
             output: 'docs'
         },
+        pathPrefix: "/journalist-portfolio/",
         templateFormats: ['md', 'njk', 'html'],
         markdownTemplateEngine: 'njk',
         htmlTemplateEngine: 'njk',
