@@ -22,7 +22,7 @@ async function CoverURL({id}) {
     }
     catch (error) {
         console.error(error);
-        return "/journalist-portfolio/assets/images/cover__default.jpg"
+        return "/assets/images/cover__default.jpg"
     }
 
 }
