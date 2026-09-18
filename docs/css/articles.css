@@ -1,0 +1,134 @@
+#content {
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.grid {
+    display: grid;
+    gap: var(--margin-medium);
+    grid-template-columns: repeat(1, 1fr);
+    width: 100%;
+    margin-bottom: var(--margin-large);
+}
+
+.featured {
+    aspect-ratio: 1.414;
+    width: 100%;
+}
+
+.featured .article__cover {
+    position: relative;
+}
+
+.featured .article__info {
+    padding: 0px;
+    position: absolute;
+    bottom: var(--margin-small);
+    left: var(--margin-small);
+    z-index:2;
+}
+
+.featured .article__info h3 {
+    color: white
+}
+
+.shadow
+{
+  position:absolute;
+  top:0;
+  right:0;
+  bottom:0;
+  left:0;
+  background :transparent;
+  opacity:1;
+  padding:5px;
+  z-index:1; 
+  box-shadow:
+    inset 0 -50px 50px -40px rgba(0,0,0,1);
+}
+
+.card__tags {
+    display: none;
+}
+
+.card__container {
+    border: none;
+}
+
+.card__info h3:first-child {
+    text-transform: uppercase;
+    font-size: var(--font-small)
+}
+
+.card__info h3:last-child {
+    text-transform: capitalize;
+    font-size: var(--font-small)
+}
+
+.article h3:first-child, .album-card h3:first-child {
+    text-transform: uppercase;
+    font-size: var(--font-x-small)
+}
+
+.article h3:last-child, .album-card h3:last-child {
+    text-transform: capitalize;
+    font-size: var(--font-x-small)
+}
+
+.album-card__container {
+    background-color: transparent;
+}
+
+.album-card__info {
+    padding-left: 0;
+}
+
+.album-card__info h3 {
+    color: var(--secondary-fg-color)
+}
+
+.article {
+    display: block;
+    overflow: hidden;
+    width: 100%;
+}
+
+.article__container {
+    background-color: transparent;
+}
+
+.article__cover {
+    aspect-ratio: 1.414;
+}
+
+.article__info {
+    padding-left: 0;
+}
+
+.article__info h3 {
+    color: var(--main-fg-color)
+}
+
+@media (min-width: 600px) {
+    .grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .featured {
+        grid-column: 1 / 3;
+        grid-row: 1 / 3;
+    }
+}
+
+@media (min-width: 1080px) {
+    .grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .album-card {
+        grid-column: 3;
+        grid-row: 1 / 3;
+    }
+}
