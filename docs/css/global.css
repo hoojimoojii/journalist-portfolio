@@ -13,7 +13,7 @@
   --margin-x-small: 2px;
   --font-large: 36px;
   --font-medium: 24px;
-  --font-normal: 20px;
+  --font-normal: 16px;
   --font-small: 14px;
   --font-x-small: 14px;
   --line-thickness: 0.25px;
@@ -269,7 +269,7 @@ button {
       --margin-x-small: 5px;
       --font-large: 40px;
       --font-medium: 24px;
-      --font-normal: 24px;
+      --font-normal: 20px;
       --font-small: 16px;
       --font-x-small: 16px;
       --line-thickness: 0.5px;
@@ -285,7 +285,7 @@ button {
       --margin-medium: 24px;
       --font-large: 96px;
       --font-medium: 50px;
-      --font-normal: 27px;
+      --font-normal: 25px;
       --font-small: 24px;
       --line-thickness: 1px;
     }
