@@ -8,7 +8,7 @@ section: Western Pop
 id: 0b597b3f-7e38-4528-b04a-582c07bbf2b0
 tags:
 - feature
-- conversation
+- western-pop
 ---
 
 “Hong Kong’s independent scene is great as it is, but some musicians deserve more success.”
@@ -32,3 +32,5 @@ Sariana also admires Bring Me The Horizon’s “heavier pop music.” Namely, t
 It’s hard to see money flowing to Hong Kong’s independent scene. Right now, most of Hong Kong’s indie musicians, including Sariana and their bandmates, have a day job on top of their musical career. Even if listeners are interested in indie music, “some people just don’t know [where to find it].”
 
 Even so, Sariana takes an optimistic view. Knowing that there’s not much profit to be made in Hong Kong’s independent music, musicians cooperate with a purpose other than money: their love for music. Musicians support other musician’s shows, and those venues are often filled with enthusiastic audiences. And promoters have been ensuring that the scene is alive and well by organizing big events. Still, Sariana believes that there are musicians who deserves music to be their primary income. “Musicians deserve [their success], but some musicians deserve more success.”
+
+*Photo from Venus Leung.*

@@ -8,7 +8,7 @@ section: Western Pop
 id: 09e6f316-948e-4eda-b439-264c95abfb5d
 tags:
 - feature
-- conversation
+- western-pop
 ---
 
 Early 2024, a leaflet was spread around the Hong Kong local music communities. Besides the patterns of telephone handsets and the gradient of seething orange, there were the written names of established Hong Kong  DIY (Do It Yourself) bands: David Boring, Wellsaid, An Id Signal, etc. It was an advertisement for an upcoming concert organized by the collective ‘un.tomorrow,’ headlined by a memorable slogan, “Tomorrow never knows; it is being.”
@@ -24,3 +24,5 @@ In another part of the interview, he mentions existing DIY acts in Hong Kong, in
 Organizing a show was not an easy step, even for such established musicians like Jason. Holding their first showcase “Assembly #1,” obstacles such as “high production costs,” “locating a suitable venue,” and “enough attendance to offset the costs” were inevitable. It’s nothing new that after the COVID outbreak, musicians and promoters were indefinitely forced to deal with obnoxious costs. However, Jason sees a positive light, “We were blessed that the support from audiences was overwhelming, which culminated in a great occasion and memories for everyone involved.” Still, he firmly advises against organizing and performing simultaneously in a same show— “Your body and mind just wouldn’t allow it…” 
 
 Finally, we were able to hear more about the label’s plan and prospect. Its upcoming artists will include improvised percussionist Brian Chu, hardcore band An Id Signal, and newfound indie act Restless Waters, accompanied by their respective shows. By the time this article was written, Brian Chu’s new album *MANNAKA* was already released on their official Bandcamp site. 
+
+*Photo from un.tomorrow.*
