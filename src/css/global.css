@@ -160,7 +160,6 @@ input {
   overflow-y: scroll;
   overflow-x: hidden;
   width: 100%;
-  margin-bottom: var(--margin-medium);
 }
 
 ::-webkit-scrollbar {
