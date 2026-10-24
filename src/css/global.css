@@ -114,6 +114,10 @@ input {
   border: none;
 }
 
+.ring-button {
+  display: inline;
+}
+
 #menu__left {
   float: left;
   color: var(--main-bg-color);
@@ -130,6 +134,7 @@ input {
 
 #menu {
   width: 100%;
+  border-bottom: 1 black solid;
 }
 #menu a {
   text-decoration: none;
@@ -259,6 +264,29 @@ button {
   outline: 0;
 }
 
+.navbar-toggler,
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none;
+    border: none;
+    box-shadow: none;
+}
+
+.navbar-toggler {
+  padding: 0;
+}
+
+.navbar-nav {
+  padding-top: var(--margin-medium);
+}
+
+.nav-link {
+  font-size: var(--font-x-small);
+  padding-bottom: 0;
+  padding-top: var(--margin-small);
+}
+
 @media (min-width: 600px) {
 
     :root {
@@ -290,6 +318,12 @@ button {
       --line-thickness: 1px;
     }
 
+}
+
+@media (min-width: 992px) {
+  .navbar-nav {
+    padding-top: 0;
+  }
 }
 
 @media (min-width: 1080px) {
@@ -358,21 +392,3 @@ button {
 
 }
 
-.navbar-toggler,
-.navbar-toggler:focus,
-.navbar-toggler:active,
-.navbar-toggler-icon:focus {
-    outline: none;
-    border: none;
-    box-shadow: none;
-}
-
-.navbar-toggler {
-  padding: 0;
-}
-
-.nav-link {
-  font-size: var(--font-x-small);
-  padding-top: var(--margin-small);
-  padding-bottom: 0;
-}
