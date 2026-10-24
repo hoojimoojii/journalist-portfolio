@@ -24,6 +24,7 @@ a {
 }
 
 html {
+  padding-top: var(--margin-medium);
   background-color: var(--main-bg-color);
   color: var(--main-fg-color);
   font-family: "Inter", sans-serif;
