@@ -1,0 +1,17 @@
+#content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+#title {
+    display: block;
+    padding: 0;
+    padding-right: var(--margin-large);
+}
+
+.card {
+    width: 100%;
+    margin-bottom: 0;
+    margin-top: var(--margin-large);
+    overflow: visible;
+}
